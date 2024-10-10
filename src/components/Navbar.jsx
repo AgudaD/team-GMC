@@ -9,7 +9,7 @@ const Navbar = () => {
                 <li>Organizations</li>
             </ul>
         </div>
-    )
+    );
 }
 
 export default Navbar;
