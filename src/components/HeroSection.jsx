@@ -7,6 +7,7 @@ const hero = () => {
     <p>This is a hero section</p>
 
     <p className='text-right'>Created by MR Eno Otuokon.</p>
+    <p className='text-right'>Created by Eno Otuokon</p>
     </div>
   )
 }
