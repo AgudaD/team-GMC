@@ -6,7 +6,7 @@ const hero = () => {
     <h1>Hero Section</h1>
     <p>This is a hero section</p>
 
-    <p className='text-right'>Created by Eno Otuokon</p>
+    <p className='text-right'>Created by Eno Otuokon.</p>
     </div>
   )
 }
