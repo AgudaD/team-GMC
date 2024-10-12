@@ -3,6 +3,7 @@ import Testimonial from "./components/Testimonial";
 import Hero from './components/HeroSection';
 import FaqsComponent from './components/FaqsComponent';
 import Footer from './components/Footer.jsx';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
