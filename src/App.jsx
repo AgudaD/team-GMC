@@ -4,6 +4,8 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Organizations from "./pages/Organizations";
+import Footer from "./components/Footer";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path="/organizations" element={<Organizations />} />
         </Routes>
       </div>
+      <Footer/>
     </div>
   );
 }
