@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import {  FacebookLogo, InstagramLogo, XLogo } from "@phosphor-icons/react";
 
 const Footer = () => {
