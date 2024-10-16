@@ -1,4 +1,4 @@
-//import React from 'react'
+import techIllustration from "../assets/support.svg"
 
 const Hero = () => {
   return (
@@ -11,10 +11,10 @@ const Hero = () => {
       </div>
     {/* <img src="https://uidoor.com/wp-content/uploads/edd/2023/09/Hero-Section-01.png" alt="community frame" /> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-1 content-center">
-        <img className="border rounded-md md:h-24 md:w-52 mt-3" src="https://res.cloudinary.com/dtnzacucq/image/upload/v1729061421/66bb67262eb960429907bcc4_669648a0617685b3acb61cc2_Best-tech-stack-for-software-development_e12y6r.png" alt="tech image" />
-        <img className="border rounded-md md:h-24 md:w-52 p-1" src="https://res.cloudinary.com/dtnzacucq/image/upload/v1729061338/10859214_gbweik.png" alt="tech image" />
-        <img className="border rounded-e-full md:h-24 md:w-52 p-1" src="https://res.cloudinary.com/dtnzacucq/image/upload/v1729061309/billboard_phvxhy.png" alt="tech image" />
-        <img className="border rounded-md md:h-24 md:w-52 p-1" src="https://res.cloudinary.com/dtnzacucq/image/upload/v1729061274/tech-future-careers---carousel2_bmwqgb.png" alt="tech image" />
+        <img className="border rounded-md md:h-auto md:w-[20rem] object-contain mt-3" src="https://res.cloudinary.com/dtnzacucq/image/upload/v1729061421/66bb67262eb960429907bcc4_669648a0617685b3acb61cc2_Best-tech-stack-for-software-development_e12y6r.png" alt="tech image" />
+        <img className="border rounded-md md:h-auto md:w-52 object-contain p-1" src={techIllustration} alt="tech image" />
+        <img className="border rounded-e-full md:h-auto md:w-52 object-contain p-1" src="https://res.cloudinary.com/dtnzacucq/image/upload/v1729061309/billboard_phvxhy.png" alt="tech image" />
+        <img className="border rounded-md md:h-auto md:w-52 object-contain p-1" src="https://res.cloudinary.com/dtnzacucq/image/upload/v1729061274/tech-future-careers---carousel2_bmwqgb.png" alt="tech image" />
       </div>
     </div>
   );
